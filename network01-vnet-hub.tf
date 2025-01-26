@@ -8,7 +8,7 @@ resource "azurerm_virtual_network" "main" {
   tags = {
     Name = "main-vnet"
   }
-  depends_on = [  
+  depends_on = [
     azurerm_resource_group.main
   ]
 }
